@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="teachersAddressList:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/teachersAddressList_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="teachersAddressList" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.0.0-beta-bin" />
+          <element id="library" level="project" name="json-lib-2.4-jdk15" />
+          <element id="library" level="project" name="ezmorph-1.0.3" />
+          <element id="library" level="project" name="commons-logging" />
+          <element id="library" level="project" name="commons-collections-3.1" />
+          <element id="library" level="project" name="commons-lang-2.5" />
+          <element id="library" level="project" name="commons-beanutils-1.7.0" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.0-beta-bin.jar" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Java EE 6-Java EE 6" />
+      <element id="javaee-facet-resources" facet="teachersAddressList/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (1, '苍井空', '苍老师', '4008823823', '66666', '1573', 'computer');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (2, '波多野结衣', '副叫兽', '654321', '25342', '03214', 'electrical');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (3, '泷泽萝拉', '讲师', '2132441', '615324', '3231', 'materialElectirc');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (4, '天海翼', '助理叫兽', '0231413', '132448', '1653421', 'art');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (5, '小泽玛利亚', '女老师', '213413352', '2654310', '2564326', 'computer');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (6, '樱井莉亚', '助理教授', '2542102', '15210021', '152444485', 'computer');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (7, '希志爱野', '叫兽', '253410', '1534210', '156561', 'computer');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (8, '泽什么鬼', '测试', '1651324', '1563215', '45213231', 'art');
+INSERT INTO `teachers` (`num`, `teachersName`, `poSition`, `telNumber`, `qqNumber`, `offNumber`, `instituteHNU`) VALUES (9, '什么鬼泽', '测试', '23110', '15320', '411444', 'computer');

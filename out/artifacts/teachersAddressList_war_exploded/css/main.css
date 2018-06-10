@@ -1,0 +1,123 @@
+.header {
+    position: fixed;
+    z-index: 3;
+    width:100%;
+    height:48px;
+    background: url('../images/header.png');
+    background-position: center;
+    color:#fff;
+    font-size: 20px;
+    font-family: '黑体';
+    text-align: center;
+    line-height: 50px;
+}
+.search-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:60px;
+	padding-top: 50px;
+    background-color: #ccc;
+}
+.search {
+    width:80%;
+    height:40px;
+    border:none;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-image: url('../images/search.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.xy,.college li ul li{
+    display: inline-block;
+    width:100%;
+    height:39px;
+    border-bottom: 1px solid #ccc;
+    line-height:39px;
+    text-indent: 30px;
+    cursor: pointer;
+}
+.xy {
+    background-image:url('../images/fold.png');
+    background-position:10px center;
+    background-repeat: no-repeat;
+}
+.xy img{
+    vertical-align: middle;
+    width:35px;
+    height:35px;
+    margin-top:-5px;
+}
+
+.xy p {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.hide li span {
+    margin-left: 20px;
+    right: 10px;
+    color: rgb(51,102,153);
+    font-weight: bold;
+}
+#suggest {
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+    height:auto;
+    padding-top:110px;
+    transition-duration: .3s;
+}
+#suggest li {
+    position: relative;
+    list-style: none;
+    width:70%;
+    padding-left:10%;
+    padding-right: 20%;
+    border-bottom:1px solid #ccc;
+    line-height:39px;
+    background-color:#fff;
+    cursor: pointer;
+    animation: sug-in .2s;
+}
+/*#suggest li span.key {*/
+    /*margin-right: 100px;*/
+/*}*/
+#suggest li span.data-key {
+    position: absolute;
+    right: 20px;
+    font-size: 14px;
+    color: rgb(51,102,153);
+}
+@keyframes sug-in {
+    from {height:0;opacity: 0;}
+    to {height:29px;opacity:1;}
+}
+#suggest li a {
+    display: inline-block;
+    width:90%;
+    height:100%;
+    text-decoration: none;
+}
+.sug-name {
+    color:#15b5e9;
+}
+.sug-xy {
+    color:#15b5e9;
+    font-size:12px;
+}
+.query-res {
+    color:#fff;
+    font-size:12px;
+    float: right;
+}
